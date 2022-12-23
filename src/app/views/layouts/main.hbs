@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br" id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrotoxicos</title>
+    <link rel="icon" type="png" href="/public/img/icone-bolado.png" />
+
+    <link rel="stylesheet" href="/bscss/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body id="corpo">
+
+    <header>
+
+        <nav class="navbar navbar-dark bg-dark" id="nav">
+            <div class="dp-flex">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex" href="https://www.ifms.edu.br/">
+                        <img src="/public/img/logo_ifms.png" id="img-logo-ifms" class="d-inline-block align-text-top img-logo">
+                    </a>
+                </div>
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler mg-left" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="form-check form-switch tema">
+                        <img src="/public/img/lua.png" id="tema-icone" width="10%" height="10%" class="img-fluid">
+                        <input class="form-check-input" type="checkbox" role="switch" id="tema-switch">
+                    </div>
+                    <div class="collapse navbar-collapse encostado bg-dark" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text" id="link" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text" id="link" href="/agrotoxicos">Agrotoxicos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text" id="link" href="/quemsomos">Quem Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text" id="link" href="/contato">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+    <main id="principal">
+
+        {{{body}}}
+
+    </main>
+    <footer id="rodape">
+
+        <span id="rodape-span" class="text">Trabalho das Disciplinas de Desenvolvimento Web 2 e Química 4</span>
+
+    </footer>
+
+    <script src="/jquery/jquery.slim.min.js"></script>
+    <script src="/popperjs/popper.min.js"></script>
+    <script src="/bsjs/bootstrap.min.js"></script>
+    <script src="/public/js/validacao.js"></script>
+    <script src="/public/js/tema.js"></script>
+    <script src="/public/js/hover.js"></script>
+    <script src="/public/js/ajuste.js"></script>
+
+</body>
+
+</html>
